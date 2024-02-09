@@ -1,0 +1,71 @@
+:root {
+    accent-color: #91e6bd;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    font-size: 18px;
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    min-height: 25px;
+}
+
+.main {
+    width: max(320px, 50vw);
+    margin: 20px auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.452);
+    border-radius: 8px;
+    padding: 20px 40px;
+}
+
+.header {}
+
+.header__title {
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+
+}
+
+.input {
+    width: max(220px, 30vw);
+    padding: 10px;
+}
+
+.addBtn {
+    width: 40px;
+}
+
+.nodata {
+    text-align: center;
+    font-size: 18px;
+    color: grey;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.checkbox span{
+    cursor: pointer;
+}
+.checkbox span:hover{
+    opacity: 0.7;
+    transition: .3s ease;
+}
