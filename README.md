@@ -1,4 +1,4 @@
-# Rsbuild Project
+# todo-list-react with Class components, Rsbuild Project
 
 ## Setup
 
@@ -13,17 +13,6 @@ pnpm install
 Start the dev server:
 
 ```bash
-pnpm run dev
+npm run dev
 ```
 
-Build the app for production:
-
-```bash
-pnpm build
-```
-
-Preview the production build locally:
-
-```bash
-pnpm preview
-```
